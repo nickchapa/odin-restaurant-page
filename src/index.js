@@ -1,7 +1,7 @@
 import "./styles.css";
 import {homeTab} from "./home.js";
-import {menu} from "./menu.js";
-import {contact} from "./contact.js";
+import {menuTab} from "./menu.js";
+import {contactTab} from "./contact.js";
 
 const divContent = document.getElementById('content');
 
@@ -18,13 +18,10 @@ homeButton.addEventListener('click', (e) => {
 
 menuButton.addEventListener('click', (e) => {
     divContent.textContent = '';
-    //menuTab();
+    menuTab();
 });
 
 contactButton.addEventListener('click', (e) => {
     divContent.textContent = '';
-    //contactTab();
+    contactTab();
 });
-
-console.log(menu);
-console.log(contact);
