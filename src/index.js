@@ -9,6 +9,8 @@ const homeButton = document.querySelector('#homeTab');
 const menuButton = document.querySelector('#menuTab');
 const contactButton = document.querySelector('#contactTab');
 
+homeTab();
+
 homeButton.addEventListener('click', (e) => {
     divContent.textContent = '';
     homeTab();
