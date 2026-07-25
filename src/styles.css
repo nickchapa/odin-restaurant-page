@@ -16,12 +16,13 @@ div#content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 75%;
 
     /* display: grid;
     grid-template-columns: 1fr;
     justify-items: center; */
 
-    border: 2px solid white;
+    border: 2px solid blue;
     background-color: gold;
 }
 
