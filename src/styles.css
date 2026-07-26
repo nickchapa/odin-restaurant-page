@@ -33,3 +33,8 @@ h1 {
 p {
     color: red;
 }
+
+.contactItem {
+    width: 75%;
+    border: solid 5px blue;
+}
