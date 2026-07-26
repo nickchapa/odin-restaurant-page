@@ -33,6 +33,8 @@ function menuItem(title, description, price, image){
     h4.textContent = price;
     // img.src = '';
 
+    div.className = 'menuItem';
+
     // append children elements to parent div
     div.append(h3);
     div.append(p);
